@@ -1,0 +1,22 @@
+* {
+  font-family: "Manrope", sans-serif;
+}
+
+body {
+  background-color: var(--very-pale-blue);
+  background-image: url(../images/bg-pattern.svg);
+  background-repeat: no-repeat;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 540px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
