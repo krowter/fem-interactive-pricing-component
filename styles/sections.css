@@ -1,0 +1,20 @@
+header {
+  align-items: center;
+  background: url(../images/pattern-circles.svg) no-repeat center;
+  display: flex;
+  height: 10rem;
+  justify-content: center;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+header h2 {
+  color: var(--dark-desaturated-blue);
+  font-size: var(--size-bigger);
+  margin-bottom: 0;
+}
+
+header p {
+  color: var(--grayish-blue);
+  font-size: var(--size-small);
+}
