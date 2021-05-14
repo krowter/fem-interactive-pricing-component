@@ -18,3 +18,50 @@ header p {
   color: var(--grayish-blue);
   font-size: var(--size-small);
 }
+
+#discount-card {
+  color: var(--grayish-blue);
+}
+
+#discount-card__header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#discount-card__slider {
+  appearance: none;
+  -webkit-appearance: none;
+  height: 8px;
+
+  order: 3;
+  width: 100%;
+}
+
+#discount-card__slider::-webkit-slider-thumb {
+  appearance: none;
+  -webkit-appearance: none;
+  background: url(../images/icon-slider.svg) var(--strong-cyan) no-repeat center;
+  box-shadow: 0 0 20px var(--strong-cyan);
+  border-radius: 50%;
+
+  height: 40px;
+  width: 40px;
+}
+
+#discount-card__slider::-moz-range-thumb {
+  background: url(../images/icon-slider.svg) var(--strong-cyan) no-repeat center;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+@media screen and (max-width: 375px) {
+  #discount-card__header {
+    flex-direction: column;
+  }
+
+  #discount-card__slider {
+    order: 0;
+  }
+}
