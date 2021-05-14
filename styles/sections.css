@@ -51,7 +51,6 @@ header p {
   );
   height: 8px;
   margin: 3rem 0;
-  order: 3;
   width: 100%;
 }
 
@@ -79,8 +78,20 @@ header p {
     text-align: center;
   }
 
+  #discount-card__header > *:nth-child(1) {
+    order: 1;
+  }
+  #discount-card__header > *:nth-child(2) {
+    order: 3;
+  }
+  #discount-card__header > *:nth-child(3) {
+    order: 2;
+  }
+  #discount-card__header > *:nth-child(4) {
+    order: 4;
+  }
+
   #discount-card__slider {
     margin: 2rem 0;
-    order: 0;
   }
 }
