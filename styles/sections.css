@@ -47,7 +47,7 @@ header p {
   background: linear-gradient(
     to right,
     var(--soft-cyan) 50%,
-    var(--light-grayish-blue) 50%
+    var(--light-grayish-blue1) 50%
   );
   height: 8px;
   margin: 3rem 0;
@@ -70,6 +70,49 @@ header p {
   border-radius: 50%;
   height: 40px;
   width: 40px;
+}
+
+#discount-card__billing {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#discount-card__billing > * {
+  margin-right: 10px;
+}
+
+#discount-card__billing-toggle {
+  appearance: none;
+  -webkit-appearance: none;
+  background: var(--light-grayish-blue2);
+  border-radius: 15px;
+  overflow: hidden;
+  padding: 3px;
+  height: 20px;
+  width: 40px;
+}
+
+#discount-card__billing-toggle:hover {
+  background: var(--soft-cyan);
+}
+
+#discount-card__billing-toggle::-webkit-slider-thumb {
+  appearance: none;
+  background: white;
+  border-radius: 50%;
+  -webkit-appearance: none;
+  height: 15px;
+  width: 15px;
+}
+
+#discount-card__discount-pill {
+  background: var(--light-grayish-red);
+  box-sizing: border-box;
+  color: var(--light-red);
+  border-radius: 1rem;
+  padding: 8px;
 }
 
 @media screen and (max-width: 375px) {

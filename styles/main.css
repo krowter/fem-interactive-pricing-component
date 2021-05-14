@@ -6,7 +6,8 @@ body {
   --grayish-blue: hsl(225, 20%, 60%);
   --light-grayish-red: hsl(14, 92%, 95%);
   --light-red: hsl(15, 100%, 70%);
-  --light-grayish-blue: hsl(224, 65%, 95%);
+  --light-grayish-blue1: hsl(224, 65%, 95%);
+  --light-grayish-blue2: hsl(223, 50%, 87%);
   --pale-blue: hsl(226, 100%, 87%);
   --soft-cyan: hsl(174, 77%, 80%);
   --strong-cyan: hsl(174, 86%, 45%);
