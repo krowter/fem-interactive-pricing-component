@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/interactive-pricing-component-using-plain-html-css-js-Z0cFvMp53)
+- [Live Site URL](https://fem-interactive-pricing-component.netlify.app/)
 
 ## My process
 
@@ -45,7 +45,7 @@ Users should be able to:
 
 ### What I learned
 
-- Although theres' a CSS-only way to have HTML range input with different background colors (before and after the slider thumb), I decided it's much simpler to use a linear background and little bit of JavaScriptt to listen to slider value changes and update the gradient stop.
+- Although theres' a CSS-only way to have HTML range input with different background colors (before and after the slider thumb), I decided it's much simpler to use a linear background and little bit of JavaScript to listen to slider value changes and update the gradient stop color.
 
 - I found out we can use HTML `range` input to create a toggle button.
 
