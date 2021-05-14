@@ -43,7 +43,9 @@ Users should be able to:
 
 ### What I learned
 
-I found out we can use HTML `range` input to create a toggle button.
+- Although theres' a CSS-only way to have HTML range input with different background colors (before and after the slider thumb), I decided it's much simpler to use a linear background and little bit of JavaScriptt to listen to slider value changes and update the gradient stop.
+
+- I found out we can use HTML `range` input to create a toggle button.
 
 ```html
 <input type="range" min="0" max="1" />
@@ -51,7 +53,7 @@ I found out we can use HTML `range` input to create a toggle button.
 <!-- and add some css to it -->
 ```
 
-and we can use image a custom icon for HTML lists
+- and we can use image a custom icon for HTML lists
 
 ```html
 <ul>
@@ -69,10 +71,7 @@ ul {
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [different background color html slider](https://stackoverflow.com/questions/18389224/how-to-style-html5-range-input-to-have-different-color-before-and-after-slider) - This helped me for get a rough idea on how to have different color on HTML range input.
 
 ## Author
 
