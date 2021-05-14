@@ -1,6 +1,8 @@
 # Frontend Mentor - Interactive Pricing Component
 
-This is my solution to the [Interactive pricing component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-pricing-component-t0m8PIyY8). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is my solution to the [Interactive pricing component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-pricing-component-t0m8PIyY8).
+
+Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -26,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./design/desktop-preview.gif)
+![](./design/desktop-preview-animation.gif)
 
 ### Links
 
