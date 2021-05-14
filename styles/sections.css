@@ -23,7 +23,8 @@ header p {
   background: white;
   color: var(--grayish-blue);
   min-height: 12rem;
-  padding: 1rem;
+  max-width: 30rem;
+  padding: 3rem;
 }
 
 #discount-card__header {
@@ -157,7 +158,7 @@ header p {
 
 @media screen and (max-width: 375px) {
   #discount-card {
-    height: 16rem;
+    height: 24rem;
   }
 
   #discount-card__header {
@@ -179,6 +180,10 @@ header p {
     margin: 2rem 0;
   }
 
+  #discount-card__billing {
+    margin: 2rem 0;
+  }
+
   #discount-card__billing > * {
     font-size: 12px;
   }
@@ -192,5 +197,9 @@ header p {
 
   #discount-card__footer {
     flex-direction: column;
+  }
+
+  #discount-card__features-list {
+    text-align: center;
   }
 }

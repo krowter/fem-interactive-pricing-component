@@ -24,7 +24,6 @@ h2,
 span,
 p {
   --size-small: 12px;
-  --size-big: 18px;
-  --size-bigger: 22px;
-  --size-biggest: 28px;
+  --size-bigger: 20px;
+  --size-biggest: 32px;
 }
