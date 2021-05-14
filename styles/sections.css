@@ -25,15 +25,32 @@ header p {
 
 #discount-card__header {
   display: flex;
+  height: 10rem;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+#discount-card__pricing {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+#discount-card__price-tag {
+  color: var(--dark-desaturated-blue);
+  font-size: var(--size-biggest);
 }
 
 #discount-card__slider {
   appearance: none;
   -webkit-appearance: none;
+  background: linear-gradient(
+    to right,
+    var(--soft-cyan) 50%,
+    var(--light-grayish-blue) 50%
+  );
   height: 8px;
-
+  margin: 3rem 0;
   order: 3;
   width: 100%;
 }
@@ -42,8 +59,8 @@ header p {
   appearance: none;
   -webkit-appearance: none;
   background: url(../images/icon-slider.svg) var(--strong-cyan) no-repeat center;
-  box-shadow: 0 0 20px var(--strong-cyan);
   border-radius: 50%;
+  box-shadow: 0 10px 20px var(--strong-cyan);
 
   height: 40px;
   width: 40px;
@@ -59,9 +76,11 @@ header p {
 @media screen and (max-width: 375px) {
   #discount-card__header {
     flex-direction: column;
+    text-align: center;
   }
 
   #discount-card__slider {
+    margin: 2rem 0;
     order: 0;
   }
 }
