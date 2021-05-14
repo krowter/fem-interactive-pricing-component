@@ -1,6 +1,11 @@
 @import url(./sitewide.css);
 @import url(./sections.css);
 
+html,
+body {
+  height: 100%;
+}
+
 body {
   --dark-desaturated-blue: hsl(227, 35%, 25%);
   --grayish-blue: hsl(225, 20%, 60%);

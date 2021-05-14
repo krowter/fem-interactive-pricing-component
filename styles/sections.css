@@ -20,7 +20,10 @@ header p {
 }
 
 #discount-card {
+  background: white;
   color: var(--grayish-blue);
+  min-height: 12rem;
+  padding: 1rem;
 }
 
 #discount-card__header {
@@ -65,6 +68,11 @@ header p {
   width: 40px;
 }
 
+#discount-card__slider::-webkit-slider-thumb:hover {
+  filter: brightness(0.8);
+  cursor: pointer;
+}
+
 #discount-card__slider::-moz-range-thumb {
   background: url(../images/icon-slider.svg) var(--strong-cyan) no-repeat center;
   border-radius: 50%;
@@ -72,14 +80,21 @@ header p {
   width: 40px;
 }
 
+#discount-card__slider::-moz-range-thumb:hover {
+  filter: brightness(0.8);
+  cursor: pointer;
+}
+
 #discount-card__billing {
   align-items: center;
   display: flex;
   justify-content: center;
+  margin-bottom: 2rem;
   width: 100%;
 }
 
 #discount-card__billing > * {
+  font-weight: 600;
   margin-right: 10px;
 }
 
@@ -95,7 +110,8 @@ header p {
 }
 
 #discount-card__billing-toggle:hover {
-  background: var(--soft-cyan);
+  background: var(--soft-cyan) !important;
+  transition: 0.2s;
 }
 
 #discount-card__billing-toggle::-webkit-slider-thumb {
@@ -107,15 +123,24 @@ header p {
   width: 15px;
 }
 
-#discount-card__discount-pill {
+#discount-card__discount-pill--compact {
+  display: none;
+}
+
+#discount-card__discount-pill--compact,
+#discount-card__discount-pill--expanded {
   background: var(--light-grayish-red);
   box-sizing: border-box;
   color: var(--light-red);
   border-radius: 1rem;
-  padding: 8px;
+  padding: 4px 8px;
 }
 
 @media screen and (max-width: 375px) {
+  #discount-card {
+    height: 16rem;
+  }
+
   #discount-card__header {
     flex-direction: column;
     text-align: center;
@@ -130,11 +155,19 @@ header p {
   #discount-card__header > *:nth-child(3) {
     order: 2;
   }
-  #discount-card__header > *:nth-child(4) {
-    order: 4;
-  }
 
   #discount-card__slider {
     margin: 2rem 0;
+  }
+
+  #discount-card__billing > * {
+    font-size: 12px;
+  }
+
+  #discount-card__discount-pill--compact {
+    display: inline;
+  }
+  #discount-card__discount-pill--expanded {
+    display: none;
   }
 }
