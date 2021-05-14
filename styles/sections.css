@@ -136,6 +136,25 @@ header p {
   padding: 4px 8px;
 }
 
+#discount-card__footer {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+#discount-card__features-list {
+  list-style-image: url(../images/icon-check.svg);
+}
+
+#discount-card__cta-button {
+  color: var(--pale-blue);
+  background: var(--dark-desaturated-blue);
+  border: none;
+  border-radius: 1.5rem;
+  height: 3rem;
+  padding: 1rem 2rem;
+}
+
 @media screen and (max-width: 375px) {
   #discount-card {
     height: 16rem;
@@ -169,5 +188,9 @@ header p {
   }
   #discount-card__discount-pill--expanded {
     display: none;
+  }
+
+  #discount-card__footer {
+    flex-direction: column;
   }
 }
