@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://www.frontendmentor.io/solutions/interactive-pricing-component-using-plain-html-css-js-Z0cFvMp53)
-- [Live Site URL](https://fem-interactive-pricing-component.netlify.app/)
+- [Live Site URL](https://krowter.github.io/fem-interactive-pricing-component/)
 
 ## My process
 
